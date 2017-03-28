@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/voice_view"
+        android:background="@null"
+        android:gravity="left|center_vertical"
+        android:hint="Please Enter Email"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="2"
+        android:padding="4dp"
+        android:textSize="17dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/send_email"
+            android:layout_width="70dp"
+            android:layout_height="34dp"
+
+            android:background="@drawable/save_btn"
+            android:text="Send"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/contact_list"
+            android:layout_width="120dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/save_btn"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Contact"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/select_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:text="OR Please Select Email :-"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/divider_shdow"
+        android:layout_alignLeft="@+id/top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/top"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="6dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

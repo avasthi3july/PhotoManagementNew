@@ -1,0 +1,450 @@
+<form name="frmEstimation" method="post" action=""><INPUT TYPE="HIDDEN" name="enquiry_id" id="enquiry_id" value=96683><INPUT TYPE="HIDDEN" name="hidden_delete_task" id="hidden_delete_task" value=""><TABLE WIDTH = "100%" CELLPADDING = \"5\" valign="top" CELLSPACING = "8" style="border-collapse:collapse;" border="0">
+	<TR>
+		<TD align="center" WIDTH="100%" colspan="4" CLASS="sidecellhead" HEIGHT = "28" >Project Effort Estimation Sheet [ Enquiry No. 96683]&nbsp;&nbsp;Version-1</TD>
+	</TR>
+	<TR>
+		<TD align="right" width="100%" class="text" colspan=4 ><a href="view-estimation.php?enquiry_id=96683&version=1&export=true">Export to xls</a></TD>
+	</TR>
+	<input type="hidden" name="check_status" id="check_status" value="">
+	<input type="hidden" name="final" id="final" value="">
+	<TR>
+		<TD align="left" width="15%" class="text" ><b>Project Name :</b> </TD>
+		<TD align="left" width="25%" class="text">Android App for Photo Management</TD>
+		<TD align="left" width="15%" class="text" ><b>Estimated By : </b></TD>
+		<TD align="left" width="" class="text">Rahul Sharma</TD>
+	</TR>
+	<TR>
+		<TD align="left" class="text" ><b>Platform :</b> </TD>
+		<TD align="left" class="text">PHP, HTML, Tester, ANDROID</TD>
+		<TD align="left" class="text" ><b>Reviewed By : </b></TD><TD align="left" class="text">Rahul Sharma</TD></TR>
+	<TR>
+		<TD align="left" class="text" ><b>Client Name :</b> </TD>
+		<TD align="left" class="text">Clifford Nelson</TD>
+		<TD align="left" class="text" ><b>Approved By :</b> </TD>
+		<TD align="left" class="text">Rahul Sharma</TD>
+	</TR>
+	<TR>
+		<TD align="left" class="text" ><b>Estimation Sheet Status :</b> </TD>
+		<TD align="left" class="text">Completed</TD>
+		<TD align="left" class="text" ><b></b> </TD>
+		<TD align="left" class="text"></TD>
+	</TR>	<TR>
+				<TD align="left" class="text" ><b>Version History :</b> </TD>
+				<TD align="left" colspan="3" class="text"><a href="view-estimation.php?enquiry_id=96683&version=1">Version-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		</TD>
+		   </TR>	</TABLE><TABLE WIDTH = "100%" CELLPADDING = "0" valign="top" CELLSPACING = "0" style="border-collapse:collapse;" border="0">
+			<TR>
+				<TD align="left" width="5%" CLASS="sidecellhead" HEIGHT = "28" >S.No.</TD>
+					<TD align="left" width="20%" CLASS="sidecellhead" HEIGHT = "28" >Stage</TD>
+					<TD align="left" width="20%" CLASS="sidecellhead" HEIGHT = "28" >Task</TD>
+					<TD align="center" width="10%" CLASS="sidecellhead" HEIGHT = "28" >Duration(person hrs)</TD>
+					<TD align="center" width="" CLASS="sidecellhead" HEIGHT = "28" >Basis of Quote</TD>
+				</TD>
+			</TR>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>1</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>System Analysis</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >SRS</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Project Plan</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>0.4</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Task Schedular + MOMs</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>7.2</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Project Analysis</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>8.9</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Project Monitoring and Controlling</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>8.9</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>2</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>System Design</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >SDD + ER + Class Diagram</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>3</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Designing / Development</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Unit testing + Staging Server Setup + Delivery Uploading</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>3.1</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Code Review</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>1.3</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >WSR + PSR + Project Matrix</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>2.2</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Data Base Design</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >HTML +Design Review</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>1.3</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+							<TR valign="top">
+								<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ><b>HTML</b></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+							</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Icon and Splash screen design + three inside screen + design re adjustment and image slicing :</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>30.0</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Icon and Splash screen design + three inside screen + design re adjustment and image slicing for Android:</TD>
+				</tr>
+							<TR valign="top">
+								<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ><b>PHP</b></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+							</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >4 webservices</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>15.0</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >4 webservices for 
+Registration of mobile number and ID
+Push notification
+Check mobile number existance</TD>
+				</tr>
+							<TR valign="top">
+								<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ><b>SEO</b></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+							</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Outsourcing</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+							<TR valign="top">
+								<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ><b>ANDROID</b></TD>
+								<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+								<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+							</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >android photo management app</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>134.0</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >including text to speech.</TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Assumptions</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>0.0</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >1)there is only one column for word tag .
+2)there is no desktop interface with mobile
+3)we will load all images and store in database at launch time so on the first time launch it will take some time .
+4) we will take mobile number on the first time of app launch 
+5)the development will be done for android 4.0 version and later and for mobiles only not for tablet
+5)in case for porting different resolution it will take additional cost .
+6)application will be in portrait only
+7)we will use default push notification service</TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >dummy</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>0.0</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >dummy</TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>4</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>System Testing</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >System Testing</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>8.1</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>5</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Reviews & Audits</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >SQA + Management Review + CM Accnt.</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>3.6</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Internal + External Audits</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>1.3</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>6</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Acceptance Testing</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Acceptance Testing</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>1.8</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>7</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Implementation</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >Live Server Setup</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>8</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Post Production Support & Maintainence</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="right"  CLASS="text"  HEIGHT = "28" ></TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" >30 Days Bug fixing support, if required</TD>
+					<TD align="center"  CLASS="text"  HEIGHT = "28" ><b>3.6</TD>
+					<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>9</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Client Requested Documentation</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text" ></TD>
+					<TD align="right"  CLASS="text"  ></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Task26"></div></TD>
+					<TD align="center"  CLASS="text"   ><div id="div_Duration26"></div></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Basis26"></div></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" >--</TD>
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+			</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>10</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Training</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text" ></TD>
+					<TD align="right"  CLASS="text"  ></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Task32"></div></TD>
+					<TD align="center"  CLASS="text"   ><div id="div_Duration32"></div></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Basis32"></div></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" >--</TD>
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+			</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>11</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Perceieved Risk (if any)</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text" ></TD>
+					<TD align="right"  CLASS="text"  ></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Task30"></div></TD>
+					<TD align="center"  CLASS="text"   ><div id="div_Duration30"></div></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Basis30"></div></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" >--</TD>
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+			</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="sidecell" HEIGHT = "28" ><b>12</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ><b>Client communication</b></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" ></TD>
+				<TD align="left"  CLASS="sidecell"  HEIGHT = "28" >&nbsp;</TD>
+			</tr>
+				<TR valign="top">
+					<TD align="center"  CLASS="text" ></TD>
+					<TD align="right"  CLASS="text"  ></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Task33"></div></TD>
+					<TD align="center"  CLASS="text"   ><div id="div_Duration33"></div></TD>
+					<TD align="left"  CLASS="text"   ><div id="div_Basis33"></div></TD>
+				</tr>
+			<TR valign="top">
+				<TD align="center"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ><b></b></TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" >--</TD>
+				<TD align="center"  CLASS="text"  HEIGHT = "28" >5.4</TD>
+				<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+			</tr>
+	<TR valign="top">
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="center"  CLASS="text"  HEIGHT = "28" colspan="3" width="100%"><hr size="1" width="100%"></TD>
+	</tr>
+	<TR valign="top">
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="right"  CLASS="text"   style="color:red" HEIGHT = "28" ><b>Total Hours :&nbsp;&nbsp;</b></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" >236.1</TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+	</tr>
+	<TR valign="top">
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="right"  CLASS="text"   style="color:red" HEIGHT = "28" ><b>Total Cost :&nbsp;&nbsp;</b></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" >3305.4</TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+	</tr>
+	<TR valign="top">
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+
+		<TD colspan="3" align="left"  CLASS="text"  HEIGHT = "28" ><b>Total efforts on chat and project management on the project will be 11.805 hours</b></TD>
+
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+	</tr>
+	<TR valign="top">
+		<TD align="center"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>
+		<TD align="left"  CLASS="text"  HEIGHT = "28" ></TD>	</tr>	</TABLE></form>
+	<TABLE WIDTH = "50%" CELLPADDING = "5" valign="top" CELLSPACING = "0" style="border-collapse:collapse;" border="0" >
+		<tr><td>
+
+			<fieldset>
+				<legend CLASS="text"><b>&nbsp;&nbsp;Basis for Quote&nbsp;&nbsp;</b></legend>
+
+				<TABLE WIDTH = "100%" CELLPADDING = "5" valign="top" CELLSPACING = "0" style="border-collapse:collapse;" border="0" > 
+
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6">1. Complexity of the functionality.</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6">2. Based on the fields or some unit (accumulative) e.g. per PDF generation or a registration form with 10 fields.</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6" height="28">&nbsp;</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6" height="28">&nbsp;</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6" height="28">&nbsp;</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6">5 % of the total hours on the project</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6">30 min X 4 X ( months)</TD>
+					</tr>
+					<tr valign="top">
+						<TD align="left"  CLASS="text" colspan="6">1hr / (month)</TD>
+					</tr>
+				</table>
+				</fieldset>
+			<td></tr>
+		</table>
+		

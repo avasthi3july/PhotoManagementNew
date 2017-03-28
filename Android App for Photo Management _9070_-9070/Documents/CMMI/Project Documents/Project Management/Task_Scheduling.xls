@@ -1,0 +1,531 @@
+<table width="100%" border="1" cellspacing="0" cellpadding="0" >
+	  <tr>
+	    <td class="headings"><b>TASK SCHEDULING</b></td>
+	  </tr>
+	</table>
+	
+	<table width="100%" border="0" cellspacing="5" cellpadding="0" class="text">
+	 
+	 <tr>
+	    <td></td>
+	    <td></td>
+	  </tr><tr>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	   <tr>
+	    <td><strong>PROJECT ID</strong></td>
+	    <td>9070</td>
+	  </tr>
+	  <tr>
+	    <td><strong>PROJECT NAME</strong></td>
+	    <td>Android App for Photo Management (9070)</td>
+	  </tr>
+	  <tr>
+	    <td height="25">&nbsp;</td>
+	    <td>&nbsp;</td>
+	  </tr>
+	  <tr>
+	    <td><strong>Est. Time:</strong></td>
+	    <td>236.1</td>
+	  </tr>
+	  
+	  <tr>
+	    <td><strong>Remaining Time:</strong></td>
+	    <td>236.1</td>
+	  </tr>
+	</table>
+	<table width="100%" border="1" cellspacing="1" cellpadding="4" class="text">
+	  <tr bgcolor="#7bceef">
+	    <td bgcolor="#7bceef" width="2%"><strong>SL.NO</strong></td>
+	    <td bgcolor="#7bceef" width="16%"><strong>Phase</strong></td>
+	    <td bgcolor="#7bceef" width="16%"><strong>Task</strong></td>
+	    <td bgcolor="#7bceef" width="6%"><strong>Sub Task</strong></td>
+	    <td bgcolor="#7bceef" width="4%"><strong>Resource</strong></td>
+	    <td bgcolor="#7bceef" width="14%"><strong>Estimated Duration</strong></td>
+	    <td bgcolor="#7bceef" colspan="2"><strong>Start Date</strong></td>
+	    <td bgcolor="#7bceef" width="4%"><strong>Dependency</strong></td>
+	    <td bgcolor="#7bceef" width="6%"><strong>Actual Duration</strong></td>
+	    <td bgcolor="#7bceef" colspan="2" width="14%"><strong>Completion Date</strong></td>
+	    <td bgcolor="#7bceef" width="4%"><strong>Status</strong></td>
+	    <td bgcolor="#7bceef" width="4%"><strong>Remarks</strong></td>
+	    <td bgcolor="#7bceef" width="4%"><strong>Basis Of Quote</strong></td>
+	  </tr>
+	  <tr bgcolor="#f79248">
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">Tentative Start Date</td>
+	    <td bgcolor="#f79248">Actual Start Date</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">Tentative Finish Date</td>
+	    <td bgcolor="#f79248">Actual Finish Date</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	    <td bgcolor="#f79248">&nbsp;</td>
+	  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">1.</td>
+						    <td bgcolor="#fcc3c5">System Analysis</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(1.1.0)</td>
+									    <td bgcolor="#cccccc">Project Plan</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">0.40</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(1.1.1)</td>
+									    <td bgcolor="#cccccc">Task Schedular + MOMs</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">7.20</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(1.1.2)</td>
+									    <td bgcolor="#cccccc">Project Analysis</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">8.90</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(1.1.3)</td>
+									    <td bgcolor="#cccccc">Project Monitoring and Controlling</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">8.90</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">2.</td>
+						    <td bgcolor="#fcc3c5">Development</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.0)</td>
+									    <td bgcolor="#cccccc">Unit testing + Staging Server Setup + Delivery Uploading</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">3.10</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.1)</td>
+									    <td bgcolor="#cccccc">Code Review</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">1.30</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.2)</td>
+									    <td bgcolor="#cccccc">WSR + PSR + Project Matrix</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">2.20</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.3)</td>
+									    <td bgcolor="#cccccc">HTML +Design Review</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">1.30</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.4)</td>
+									    <td bgcolor="#cccccc">Icon and Splash screen design + three inside screen + design re adjustment and image slicing :</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">30.00</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#eeeeee">
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">(2.1.4.0)</td>
+										    <td bgcolor="#eeeeee">app icon design</td>
+										    <td bgcolor="#eeeeee">Yashwant Singh Kanwar</td>
+										    <td bgcolor="#eeeeee">
+											
+											
+						
+											0.00</td>
+									    <td bgcolor="#eeeeee">01-Dec-2016</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">05-Dec-2016</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">Cancelled</td>
+										    <td bgcolor="#eeeeee">Reschdule</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										  </tr>				<tr bgcolor="#eeeeee">
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">(2.1.4.1)</td>
+										    <td bgcolor="#eeeeee">Remaining design</td>
+										    <td bgcolor="#eeeeee">Kusumakar Avasthi</td>
+										    <td bgcolor="#eeeeee">
+											
+											
+						
+											25.00</td>
+									    <td bgcolor="#eeeeee">01-Dec-2016</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">30-Jan-2017</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">Open</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										  </tr>				<tr bgcolor="#eeeeee">
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">&nbsp;</td>
+										    <td bgcolor="#eeeeee">(2.1.4.2)</td>
+										    <td bgcolor="#eeeeee">Icon and Splash screen design</td>
+										    <td bgcolor="#eeeeee">Mahender Singh Chauhan</td>
+										    <td bgcolor="#eeeeee">
+											
+											
+						
+											5.00</td>
+									    <td bgcolor="#eeeeee">01-Dec-2016</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">05-Dec-2016</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">Open</td>
+										    <td bgcolor="#eeeeee">N/A</td>
+										    <td bgcolor="#eeeeee">NA</td>
+										  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.5)</td>
+									    <td bgcolor="#cccccc">android photo management app</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">134.00</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(2.1.6)</td>
+									    <td bgcolor="#cccccc">4 webservices</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">15.00</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">3.</td>
+						    <td bgcolor="#fcc3c5">System Testing</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(3.1.0)</td>
+									    <td bgcolor="#cccccc">System Testing</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">8.10</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">4.</td>
+						    <td bgcolor="#fcc3c5">Reviews &amp; Audits</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(4.1.0)</td>
+									    <td bgcolor="#cccccc">SQA + Management Review + CM Accnt.</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">3.60</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(4.1.1)</td>
+									    <td bgcolor="#cccccc">Internal + External Audits</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">1.30</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">5.</td>
+						    <td bgcolor="#fcc3c5">Acceptance Testing</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(5.1.0)</td>
+									    <td bgcolor="#cccccc">Acceptance Testing</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">1.80</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">6.</td>
+						    <td bgcolor="#fcc3c5">Post Production Support and Maintenance</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(6.1.0)</td>
+									    <td bgcolor="#cccccc">30 Days Bug fixing support, if required</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">3.60</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#fcc3c5">
+						    <td bgcolor="#fcc3c5">7.</td>
+						    <td bgcolor="#fcc3c5">Client communication</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="6%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" width="4%">&nbsp;</td>
+						    <td bgcolor="#fcc3c5" >&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						    <td bgcolor="#fcc3c5">&nbsp;</td>
+						  </tr>				<tr bgcolor="#cccccc">
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">(7.1.0)</td>
+									    <td bgcolor="#cccccc">--</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">5.40</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									    <td bgcolor="#cccccc">&nbsp;</td>
+									  </tr>		<tr bgcolor="#f79248">
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248"  align="left"><b>Total</b></td>
+					    <td bgcolor="#f79248"  align="left"><b>236.10</b></td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248" class="headings2"></td>
+					    <td bgcolor="#f79248" align="left"><b>0.00</b></td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					    <td bgcolor="#f79248">&nbsp;</td>
+					  </tr>
+					</table>
