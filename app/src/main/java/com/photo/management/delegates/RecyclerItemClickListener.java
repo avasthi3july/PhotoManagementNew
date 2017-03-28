@@ -12,6 +12,7 @@ import android.view.View;
 
 public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener {
     private OnItemClickListener mListener;
+    private OnItemClickListener mListener1111;
 
 
 
@@ -21,7 +22,7 @@ public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListen
 
 
 
-        
+
         public void onLongItemClick(View view, int position);
     }
 
