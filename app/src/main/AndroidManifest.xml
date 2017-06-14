@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.photo.management">
-
+    package="com.tagmypicture">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -9,15 +8,23 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+
+	
+	
+	
+	
     <uses-feature android:name="android.hardware.camera" />
-	
-	
-	
-	
-	
+
+    <uses-permission android:name="com.android.vending.BILLING" />
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".delegates.MyApplication"
@@ -35,11 +42,11 @@
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 />
             </intent-filter>
             <intent-filter>
-
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -49,24 +56,22 @@
                 <data android:scheme="http" />
                 <data android:host="m.twil.io" />
                 <data android:scheme="https" />
-
-
             </intent-filter>
             -->
-            <!--    <intent-filter>
+            <!--
+                    <intent-filter>
                     <action android:name="android.intent.action.VIEW"></action>
                     <category android:name="android.intent.category.DEFAULT"></category>
                     <category android:name="android.intent.category.BROWSABLE"></category>
                     <data android:scheme="http" android:host="android.app.spuul.com" android:pathPrefix=""></data>
-                </intent-filter>-->
+                </intent-filter>
+            -->
         </activity>
+
+        <service android:name=".service.DownloadService" />
+
         <activity
             android:name=".activity.MainActivity"
-            android:configChanges="locale|touchscreen|orientation|screenLayout|screenSize|keyboardHidden|uiMode"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".activity.MainActivity1"
             android:configChanges="locale|touchscreen|orientation|screenLayout|screenSize|keyboardHidden|uiMode"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
@@ -92,5 +97,16 @@
             </intent-filter>
         </service>
 
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
     </application>
+
 </manifest>

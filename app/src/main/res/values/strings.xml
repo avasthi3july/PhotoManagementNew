@@ -5,7 +5,52 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
     <style name="CustomDialog" parent="@style/Theme.AppCompat.Light.Dialog">
         <item name="android:windowNoTitle">true</item>
     </style>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Trivial Drive</string>
+
+    <string name="subscription_period_prompt">Select your subscription period</string>
+    <string name="subscription_resignup_prompt">To reactivate your subscription, select your subscription period</string>
+    <string name="subscription_update_prompt">To change your subscription, select your new subscription period</string>
+    <string name="subscription_period_monthly">Monthly</string>
+    <string name="subscription_period_yearly">Yearly</string>
+    <string name="subscription_prompt_continue">Continue</string>
+    <string name="subscription_prompt_cancel">Cancel</string>
+    <string name="content_description_app_loading_image">App loading image</string>
+    <string name="content_description_title_image">80\'s Video Game Style Car Logo</string>
+    <string name="content_desc_gas_gauge_indicator">Gas gauge indicator</string>
+    <string name="content_desc_free_vs_premium_indicator">Free or Premium Image Indicator</string>
+
+    <string name="STATUS_OK">Payment successful</string>
+    <string name="STATUS_CANCEL">Payment canceled</string>
+    <string name="STATUS_NETWORK">Network connection is down</string>
+    <string name="STATUS_VERSION">Billing API version is not supported for the type requested</string>
+    <string name="STATUS_UNAVAILABLE">Requested product is not available for purchase</string>
+    <string name="STATUS_DEVP_ERROR">Invalid arguments provided to the API</string>
+    <string name="STATUS_FATAL">Fatal error during the API action</string>
+    <string name="STATUS_ALREADY_PUR">Failure to purchase since item is already owned</string>
+    <string name="STATUS_NOT_OWNED">Failure to consume since item is not owned</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3303857880227757/1570194026</string>
+    <string name="interstitial_full_screen1">ca-app-pub-3303857880227757/8916834023</string>
+    <string name="interstitial_full_screen">ca-app-pub-4445511530921820/8171052196</string>
 </resources>

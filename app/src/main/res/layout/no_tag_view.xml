@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:gravity="center_horizontal"
-            android:text="Lets you rename \n&amp; tag your pictures with text \nor vocal descriptions for \neasy retrieval and sharing"
+            android:text="Lets you rename &amp; tag your pictures \nwith text or vocal descriptions for easy retrieval (or sharing with ad \nor paid version)."
             android:textColor="#000000"
             android:textSize="18dp" />
 
@@ -41,7 +41,8 @@
             android:background="@drawable/button_blue"
             android:text="Browse Pictures"
             android:textColor="#ffffff"
-            android:textSize="18dp" />
+            android:textSize="18dp"
+            android:visibility="gone" />
 
         <ImageView
             android:layout_width="match_parent"

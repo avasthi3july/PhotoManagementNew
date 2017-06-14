@@ -3,14 +3,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f2f2f2"
-    android:padding="17dp">
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/remove_ads"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="Remove Ads"
+        android:textColor="#1CABD4"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/remove_ads"
+        android:layout_marginTop="5dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -31,7 +42,7 @@
                 <ImageView
                     android:id="@+id/selectedImage"
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
+                    android:layout_height="230dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside" />
             </RelativeLayout>

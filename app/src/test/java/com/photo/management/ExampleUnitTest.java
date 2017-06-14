@@ -1,4 +1,4 @@
-package com.photo.management;
+package com.tagmypicture;
 
 import org.junit.Test;
 
