@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.widget.Toast;
+
 import com.tagmypicture.R;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.gson.reflect.TypeToken;
@@ -141,17 +142,30 @@ public class SplashScreen extends Activity implements ServiceCallBack {
 
     }
 
+    public void getAllImage() {
+        BaseRequest baseRequest = new BaseRequest(this);
+        baseRequest.setProgressShow(true);
+        baseRequest.setRequestTag(Api.GET_ALL_IMAGE);
+        baseRequest.setServiceCallBack(this);
+        baseRequest.setMessage("Please wait...");
+        Api api = (Api) baseRequest.execute(Api.class);
+        api.getImage("get_userimage", pref.getString("email", ""), baseRequest.requestCallback());
+
+    }
+
 
     @Override
     public void onSuccess(int tag, String baseResponse) {
         if (tag == Api.GET_IMAGE) {
             BaseResponse<ArrayList<ImageDetail>> imageDetail = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse<ArrayList<ImageDetail>>>() {
             }.getType());
+           System.out.println("STATUS1>>"+pref.getBoolean("appLaunch", false));
             if (imageDetail.getSuccess().equalsIgnoreCase("1")) {
                 for (int i = 0; i < imageDetail.getData().size(); i++) {
                     ImageDetail image = imageDetail.getData().get(i);
                     Photo mPhoto = new Photo();
-                    mPhoto.setRefId(image.getImgurl().hashCode());
+                    //mPhoto.setRefId(image.getImgurl().hashCode());
+                    mPhoto.setRefId(image.getId());
                     mPhoto.setPicPath(image.getImgurl());
                     mPhoto.setTagName(image.getTag());
                     mPhoto.setDownload(true);
@@ -160,10 +174,17 @@ public class SplashScreen extends Activity implements ServiceCallBack {
                     db.tagImageDb(mPhoto);
                 }
             }
-            finish();
-            Intent i = new Intent(SplashScreen.this, MainActivity.class);
-            startActivity(i);
+            if (!pref.getBoolean("appLaunch", false)) {
+                Log.v("sucess", "1");
+                getAllImage();
+            } else {
+                Log.v("sucess", "2");
+                finish();
+                Intent i = new Intent(SplashScreen.this, MainActivity.class);
+                startActivity(i);
+            }
         } else if (tag == Api.GET_USER_EXIST) {
+            System.out.println("STATUS2>>"+pref.getBoolean("appLaunch", false));
             BaseResponse data = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse>() {
             }.getType());
             // Util.showDialog(this, data.getSuccess());
@@ -171,22 +192,63 @@ public class SplashScreen extends Activity implements ServiceCallBack {
             if (data.getSuccess().equalsIgnoreCase("1")) {
                 //  if (pref.getBoolean("isRegister", false)) {
                 getImage();
-
+                Log.v("sucess", "3");
                 /*} else {
                     Intent i = new Intent(SplashScreen.this, RegistrationUser.class);
                     startActivity(i);
                 }*/
 
             } else if (data.getSuccess().equalsIgnoreCase("2")) {
+
                 Util.showDialog1(this, data.getMessage());
                 //finish();
-            } else {
+            }
+            else if (data.getSuccess().equalsIgnoreCase("4")) {
+
+                Util.showDialog1(this, data.getMessage());
+                //finish();
+            }
+            else {
                 if (data.getSuccess().equalsIgnoreCase("0")) {
-                    Intent i = new Intent(SplashScreen.this, RegistrationUser.class);
+                    Intent i = new Intent(
+
+
+
+
+
+                            SplashScreen.this, RegistrationUser.class);
                     startActivity(i);
                     finish();
                 }
             }
+          //  if (!pref.getBoolean("isPremium1", false))
+              //  Util.showAd(SplashScreen.this);
+        } else if (tag == Api.GET_ALL_IMAGE) {
+            BaseResponse<ArrayList<ImageDetail>> imageDetail = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse<ArrayList<ImageDetail>>>() {
+            }.getType());
+
+            Log.v("sucess", "4");
+            if (imageDetail.getSuccess().equalsIgnoreCase("1")) {
+                Log.v("sucess", "5" + imageDetail.getData().size());
+                for (int i = 0; i < imageDetail.getData().size(); i++) {
+                    ImageDetail image = imageDetail.getData().get(i);
+                    Photo mPhoto = new Photo();
+                    //mPhoto.setRefId(image.getImgurl().hashCode());
+                    mPhoto.setRefId(image.getId());
+                    mPhoto.setPicPath(image.getImgurl());
+                    mPhoto.setTagName(image.getTag());
+                    mPhoto.setDownload(true);
+                    mPhoto.setTag(true);
+                    mPhoto.setDate(image.getCreatedon());
+                    db.tagImageDb(mPhoto);
+                }
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putBoolean("appLaunch", true);
+                editor.commit();
+            }
+            finish();
+            Intent i = new Intent(SplashScreen.this, MainActivity.class);
+            startActivity(i);
         } else {
             BaseResponse<TestBase> imageDetail = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse<TestBase>>() {
             }.getType());

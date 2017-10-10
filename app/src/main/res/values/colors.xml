@@ -3,4 +3,11 @@
     <color name="colorPrimary">#1CABD4</color>
     <color name="colorPrimaryDark">#1CABD4</color>
     <color name="colorAccent">#1CABD4</color>
+    <integer-array name="colors">
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimary</item>
+    </integer-array>
 </resources>

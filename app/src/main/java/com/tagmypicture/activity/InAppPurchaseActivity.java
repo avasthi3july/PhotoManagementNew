@@ -44,6 +44,7 @@ public abstract class InAppPurchaseActivity
     static final String SKU_GAS = "gas";
     static final String SKU_INFINITE_GAS_MONTHLY = "tmp_email_message";
     static final String SKU_INFINITE_GAS_YEARLY = "tmp_remove_ad";
+    //static final String SKU_INFINITE_GAS_YEARLY = "ad_testing";
     static final int RC_REQUEST = 10001;
     static int[] TANK_RES_IDS = {R.drawable.gas0, R.drawable.gas1, R.drawable.gas2,
             R.drawable.gas3, R.drawable.gas4};
@@ -236,7 +237,7 @@ public abstract class InAppPurchaseActivity
             mSecondChoiceSku = "";
         }
 
-        int titleResId = 0;
+        int titleResId = R.string.subscription_period_prompt;
         if (!mSubscribedToInfiniteGas) {
             titleResId = R.string.subscription_period_prompt;
         } /*else if (!mSubscribedToInfiniteGasYear) {
@@ -253,7 +254,8 @@ public abstract class InAppPurchaseActivity
                 .setPositiveButton(R.string.subscription_prompt_continue, this)
                 .setNegativeButton(R.string.subscription_prompt_cancel, this);
         AlertDialog dialog = builder.create();
-        dialog.show();
+        if (dialog != null)
+            dialog.show();
     }
 
     @Override

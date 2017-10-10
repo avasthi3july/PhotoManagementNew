@@ -59,7 +59,9 @@ import com.tagmypicture.webservice.JsonDataParser;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 import retrofit.RetrofitError;
@@ -104,8 +106,8 @@ public class MyPictureView extends Fragment implements View.OnClickListener, Ser
 
     private void initLayout(View view) {
         pref = Util.getSharedPreferences(getActivity());
-        if (!pref.getBoolean("isPremium1", false))
-            Util.showAd(getActivity());
+        /*if (!pref.getBoolean("isPremium1", false))
+            Util.showAd(getActivity());*/
 
 
         emailId = pref.getString("email", "");
@@ -294,6 +296,17 @@ public class MyPictureView extends Fragment implements View.OnClickListener, Ser
     private String path, tagName;
     CountryPicker picker;
 
+    public void deleteImage(int imageId) {
+        BaseRequest baseRequest = new BaseRequest(getActivity());
+        baseRequest.setProgressShow(true);
+        baseRequest.setRequestTag(Api.DELETE_IMAGE);
+        baseRequest.setMessage("Please wait...");
+        baseRequest.setServiceCallBack(this);
+        Api api = (Api) baseRequest.execute(Api.class);
+        api.deleteImage("delete_image", String.valueOf(imageId), baseRequest.requestCallback());
+
+    }
+
     @Override
     public void onClick(View v) {
         if (searchValue.length() > 0) {
@@ -334,13 +347,11 @@ public class MyPictureView extends Fragment implements View.OnClickListener, Ser
 
         } else if (v == delete) {
             dialog.dismiss();
-            db.deletePicture(uniqueId);
-            picList.remove(seletedPos);
+
+            deleteImage(uniqueId);
             // if (filteredList != null)
             // filteredList.remove(seletedPos);
 
-            imageCount.setText("" + picList.size());
-            myPictureAdapter.notifyDataSetChanged();
         } else if (v == sendEmail) {
             //selectedUser = position;
             if (userEmail.getText() != null && userEmail.getText().toString().length() > 0) {
@@ -476,6 +487,23 @@ public class MyPictureView extends Fragment implements View.OnClickListener, Ser
             if (baseData.getSuccess().equalsIgnoreCase("1")) {
                 Util.showToast(getActivity(), "Image Successfully Sent.");
             } else Util.showToast(getActivity(), "Please try again.");
+        }
+        else if(tag==Api.DELETE_IMAGE)
+        {
+            BaseResponse data = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse>() {
+            }.getType());
+            if (data.getSuccess().equalsIgnoreCase("2") || data.getSuccess().equalsIgnoreCase("1")) {
+                db.deletePicture(uniqueId);
+                picList.remove(seletedPos);
+                imageCount.setText("" + picList.size());
+                myPictureAdapter.notifyDataSetChanged();
+
+            }
+            else Util.showToast(getActivity(), data.getMessage());
+
+
+
+
         }
     }
 

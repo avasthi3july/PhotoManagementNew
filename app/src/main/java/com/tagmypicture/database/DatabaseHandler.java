@@ -205,6 +205,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         return db.update(TABLE_PHOTO, values, KEY_REF_ID + " = ?",
                 new String[]{String.valueOf(photo.getRefId())});
     }
+
     public void deletePicture(int refId) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_PHOTO, KEY_REF_ID + " = ?",
@@ -247,7 +248,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         //String selectQuery = "UPDATE "+TABLE_PHOTO +" SET " + KEY_PATH+ " = '"+path+"' WHERE pic_reference_id=" + refId;
 
         ///SQLiteDatabase db = this.getWritableDatabase();
-       //Cursor cursor = db.rawQuery(selectQuery, null);
+        //Cursor cursor = db.rawQuery(selectQuery, null);
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
@@ -256,5 +257,11 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // updating row
         return db.update(TABLE_PHOTO, values, KEY_REF_ID + " = ?",
                 new String[]{String.valueOf(refId)});
+    }
+
+    public void deleteData() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("delete from " + TABLE_PHOTO);
+
     }
 }

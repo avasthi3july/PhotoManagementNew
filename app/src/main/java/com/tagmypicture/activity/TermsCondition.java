@@ -24,7 +24,7 @@ public class TermsCondition extends Activity implements View.OnClickListener {
         imageViewBack.setOnClickListener(this);
         webView.getSettings().setJavaScriptEnabled(true);
         // webView.loadUrl("http://synapse.asia/bridge8618/terms/terms_condition");
-        webView.loadUrl("http://www.tagmypicture.com/pdf/Terms.pdf");
+        webView.loadUrl("http://www.tagmypicture.com/terms.html");
     }
 
     @Override

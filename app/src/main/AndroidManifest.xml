@@ -12,11 +12,6 @@
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
-
-	
-	
-	
-	
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -68,7 +63,8 @@
             -->
         </activity>
 
-        <service android:name=".service.DownloadService" />
+        <service android:name=".service.DownloadService"
+            />
 
         <activity
             android:name=".activity.MainActivity"
@@ -107,6 +103,9 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e84e9389738ae48c3f0171defb46963d88318917" />
     </application>
 
 </manifest>

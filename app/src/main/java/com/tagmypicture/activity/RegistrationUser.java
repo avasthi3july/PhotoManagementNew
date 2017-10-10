@@ -24,6 +24,7 @@ import com.google.gson.reflect.TypeToken;
 import com.mukesh.countrypicker.CountryPicker;
 import com.mukesh.countrypicker.CountryPickerListener;
 import com.tagmypicture.dao.BaseResponse;
+import com.tagmypicture.database.DatabaseHandler;
 import com.tagmypicture.delegates.Api;
 import com.tagmypicture.delegates.ServiceCallBack;
 import com.tagmypicture.notification.Config;
@@ -48,6 +49,7 @@ public class RegistrationUser extends BaseActivity implements ServiceCallBack, V
     private SharedPreferences pref;
     private CheckBox checkTerms;
     private TextView countryCode;
+    private DatabaseHandler db;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -83,8 +85,9 @@ public class RegistrationUser extends BaseActivity implements ServiceCallBack, V
     }
 
     private void initViews() {
-        TelephonyManager tm = (TelephonyManager)getSystemService(getApplicationContext().TELEPHONY_SERVICE);
+        TelephonyManager tm = (TelephonyManager) getSystemService(getApplicationContext().TELEPHONY_SERVICE);
         String countryCode1 = tm.getNetworkCountryIso();
+        db = new DatabaseHandler(this);
         pref = Util.getSharedPreferences(this);
         picker = CountryPicker.newInstance("Select Country");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -107,8 +110,8 @@ public class RegistrationUser extends BaseActivity implements ServiceCallBack, V
         terms.setOnClickListener(this);
         countryCode.setOnClickListener(this);
         //SpannableString content = new SpannableString("I agree Terms & Conditions");
-       // content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
-       // terms.setText(content);
+        // content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+        // terms.setText(content);
     }
 
     @Override
@@ -164,6 +167,10 @@ public class RegistrationUser extends BaseActivity implements ServiceCallBack, V
 
     }
 
+    private void clearDb() {
+
+    }
+
     public void userRegistration(String type, String email, String mob, String deviceId) {
         BaseRequest baseRequest = new BaseRequest(this);
         baseRequest.setProgressShow(true);
@@ -192,8 +199,10 @@ public class RegistrationUser extends BaseActivity implements ServiceCallBack, V
             try {
                 BaseResponse baseData = JsonDataParser.getInternalParser(baseResponse, new TypeToken<BaseResponse>() {
                 }.getType());
+                db.deleteData();
                 SharedPreferences.Editor editor = pref.edit();
                 editor.putBoolean("isRegister", true);
+                editor.putBoolean("appLaunch", false);
                 editor.putString("email", email.getText().toString());
                 editor.commit();
                 if (baseData.getSuccess().equalsIgnoreCase("1")) {

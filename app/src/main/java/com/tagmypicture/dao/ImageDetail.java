@@ -1,5 +1,7 @@
 package com.tagmypicture.dao;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by kavasthi on 12/30/2016.
  */
@@ -8,7 +10,9 @@ public class ImageDetail {
     private String email;
     private String imgurl;
     private String tag;
+    @SerializedName("created_on")
     private String createdon;
+    private int id;
 
     public String getEmail() {
         return email;
@@ -40,5 +44,13 @@ public class ImageDetail {
 
     public void setCreatedon(String createdon) {
         this.createdon = createdon;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
